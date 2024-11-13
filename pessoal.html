@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página de Apresentação</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #003366;
+            color: #fff;
+        }
+ 
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+ 
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+ 
+        header img {
+            max-width: 200px;
+            border-radius: 50%;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+ 
+        footer {
+            background-color: #000000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+ 
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+ 
+        section h2 {
+            font-size: 28px;
+            color: #003366;
+        }
+ 
+        section p, section ul li {
+            color: #333;
+        }
+ 
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+ 
+        li {
+            margin-bottom: 15px;
+            flex: 1 0 30%;
+            display: flex;
+            justify-content: center;
+        }
+ 
+        a {
+            text-decoration: none;
+            color: #ff4081;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+ 
+        a:hover {
+            color: #ff80ab;
+        }
+ 
+        iframe {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+ 
+        button, a.button {
+            background-color: #ff4081;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+ 
+        button:hover, a.button:hover {
+            background-color: #f50057;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <header>
+        <h1>Olá, eu sou Alexandre Lopes Soares</h1>
+        <img src="https://drive.google.com/uc?export=view&id=1JjbXGLFOLGppWx3w3brjG8woLyh2rj0m" alt="Minha Foto">
+    </header>
+ 
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>Eu faço curso técnico no Senac de Informática e, atualmente  estou na parte de programação.</p>
+    </section>
+ 
+    <section>
+        <h2>Músicas que Gosto</h2>
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/watch?v=iEenugG_y6c" target="_blank">
+                    <img src="https://img.youtube.com/vi/iEenugG_y6c/0.jpg" alt="365 Dias">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=jK2k1P56Cno" target="_blank">
+                    <img src="https://img.youtube.com/vi/jK2k1P56Cno/0.jpg" alt="Poesia Acústica 6">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=T3Y6RRSDm4o" target="_blank">
+                    <img src="https://img.youtube.com/vi/T3Y6RRSDm4o/0.jpg" alt="Até que Durou">
+                </a>
+            </li>
+        </ul>
+    </section>
+ 
+    <section>
+        <h2>Vídeos que Gosto</h2>
+        <!-- Corrigido para as URLs de incorporação do YouTube -->
+        <iframe src="https://www.youtube.com/embed/JHCZzSyBk2o" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/pBcmMvg44js" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/wKTMVKVg0_A" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/zdTVYhnwTJQ" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/TcHTvZkH7BM" allowfullscreen></iframe>
+    </section>
+ 
+    <section>
+        <h2>Recomendações de Sites para Estudo</h2>
+        <ul>
+            <li>
+                <a href="https://www.coursera.org/" target="_blank">Coursera</a>  A Coursera é uma plataforma de ensino à distância (EAD) que oferece cursos online em diversas áreas, disponibilizando conteúdos de universidades e empresas renomadas.
+            </li>
+            <li>
+                <a href="https://pt.khanacademy.org/" target="_blank">Khan Academy</a>  A Khan Academy oferece recursos educacionais gratuitos, como vídeos instrucionais, exercícios práticos e painéis de aprendizado personalizados.
+            </li>
+            <li>
+                <a href="https://www.ludoeducativo.com.br/pt/" target="_blank">Ludo Educativo</a> A Ludo Educativo oferece jogos educativos para tornar o aprendizado mais divertido e interativo.
+            </li>
+        </ul>
+    </section>
+ 
+    <footer>
+        <p>Obrigado, Professor Hugo!</p>
+    </footer>
+ 
+</body>
+ 
+</html>
